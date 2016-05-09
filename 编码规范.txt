@@ -1,0 +1,24 @@
+编码规范
+===
+
+1、基类规范
+* 控制器规范
+	* 类规范
+		* 继承 BaseController.java
+		* 注解 @Controller
+		* 注解 @RequestMapping(value)，在value 中填入这个类的请求url
+	* 方法规范
+		* 返回值都是 String 类型
+		* 抛出所有异常
+		* 返回 json 数据注解 @
+* service 层规范
+	* 类规范
+		* service 注解 @Service
+		* service 继承 BaseService.java
+		* service 注解 @Transactional(readOnly = true)
+		
+2、变量
+	* 常量
+		* 常量需要注释
+		* 公共常量在公共类中获取。
+		* 类特有的常量应写在该类当中。

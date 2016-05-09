@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="pssys-web"
+  id="myeclipse.1460288124325"
+  context-root="/pssys-web"
+  j2ee-spec="1.7"
+  archive="pssys-web.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+
